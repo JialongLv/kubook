@@ -8,6 +8,7 @@ use Laravel\Scout\Searchable;
 
 class Post extends BaseModel
 {
+<<<<<<< HEAD
 
     use Searchable;
     /*
@@ -48,4 +49,10 @@ class Post extends BaseModel
         return $this->hasMany(\App\Zan::class);
     }
 
+=======
+    //protected $guarded;     //不可以注入的字段
+
+    //可以注入的字段
+//    protected $fillable = ['title','content'];
+>>>>>>> origin/dev
 }
