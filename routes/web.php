@@ -49,4 +49,6 @@ Route::get('/posts/{post}/zan',
 Route::get('/posts/{post}/unzan',
     '\App\Http\Controllers\PostController@unzan');
 
+//通知
+
 
